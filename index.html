@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/Assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -27,10 +27,11 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
-      <button class="clear col-md-1">Clear all Content</button>
+      <button class="clear col-md-1">Clear All </button>
     </header>
     <div class="container">
-      <div id="hour6" class="row time-block">
+
+    <div id="hour6" class="row time-block">
         <div class="col-md-1 hour">
             06:00am
         </div>
@@ -81,7 +82,7 @@
       </div>
       <div id="hour13" class="row time-block">
         <div class="col-md-1 hour">
-            1:00pm
+            01:00pm
         </div>
         <textarea class="col-md-10 description" placeholder="Put your schedule here"></textarea>
         <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
@@ -142,6 +143,123 @@
         <textarea class="col-md-10 description" placeholder="Put your schedule here"></textarea>
         <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
+      
+
+<!-- 
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Time</th>
+            <th scope="col">Event</th>
+            <th scope="col">Save</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>06:00am</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>07:00am</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>07:00am</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>08:00am</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>09:00am</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>10:00am</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>11:00am</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>12:00am</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td>01:00pm</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td>02:00pm</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">11</th>
+            <td>03:00pm</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">12</th>
+            <td>04:00pm</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">13</th>
+            <td>05:00pm</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">14</th>
+            <td>06:00pm</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">15</th>
+            <td>07:00pm</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">16</th>
+            <td>08:00pm</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr>
+            <th scope="row">17</th>
+            <td>09:00pm</td>
+            <td><textarea class="col-md-10 yourContent" placeholder="write your schedule here"></textarea></td>
+            <td><button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button></td>
+          </tr>
+        </tbody>
+      </table> -->
       
       <!-- Timeblocks go here -->
 
