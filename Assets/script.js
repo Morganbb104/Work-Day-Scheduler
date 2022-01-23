@@ -12,12 +12,8 @@ function timeBlockColor() {
       // turn #hours to mumber          
       var hourInBlock = parseInt($(this).attr("id").split("hour")[1]);
       console.log(currentTime, hourInBlock);
-          // $(this).removeClass("present");
-          // $(this).removeClass("future");
-          // $(this).removeClass("future");
       if (hourInBlock < currentTime) {
           $(this).addClass("past");
-
       } else if (hourInBlock == currentTime) {
           $(this).addClass("present");
       } else if(hourInBlock > currentTime) {
