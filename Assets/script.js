@@ -18,7 +18,7 @@ function timeBlockColor() {
       if (hourInBlock < currentTime) {
           $(this).addClass("past");
 
-      } else if (hourInBlock = currentTime) {
+      } else if (hourInBlock == currentTime) {
           $(this).addClass("present");
       } else if(hourInBlock > currentTime) {
           $(this).addClass("future");
