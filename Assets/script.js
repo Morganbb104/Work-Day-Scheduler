@@ -1,5 +1,5 @@
 
-// present the current time
+// present the current time by [Moment.js]
 var today = moment();
 $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm a'));
 
