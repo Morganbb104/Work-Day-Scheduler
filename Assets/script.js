@@ -1,11 +1,12 @@
-function (){
-  let getItemTime;
-// display the date and time by [Moment.js]
-$("#currentDay").text(moment().format('MMMM Do YYYY, h:mm a'));  
-}
+// function (event){
+//   let getItemTime;
+// // display the date and time by [Moment.js]
+// $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm a'));  
+// }
 
-var dt = new Date();
-document.getElementById("currentDay").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
-document.getElementById("current").innerHTML = dt.toLocaleTimeString()
 
-function
+var arrayHoursId = ["#hour6", "#hour7", "#hour8", "#hour9", "#hour10", "#hour11", "#hour12", "#hour13", "#hour14", "#hour15", "#hour16", "#hour17", "#hour18", "#hour19", "#hour20","#hour21"]
+
+// present the current time
+var today = moment();
+$("#currentDay").text(moment().format('MMMM Do YYYY, h:mm a'));
