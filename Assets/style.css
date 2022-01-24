@@ -13,12 +13,31 @@ textarea {
   padding: 10px;
 }
 
+.display-3{
+  font-family: 'Rubik Beastly', cursive;
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  font-family: "Sofia", sans-serif;
+}
+
+.currentDay{
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+  font-family: "Sofia", sans-serif;
+  font-size: larger;
+}
+
+.clear{
+  
 }
 
 .description {
