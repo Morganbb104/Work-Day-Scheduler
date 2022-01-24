@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@400;700;900&display=swap');
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "Open Sans Regular";
   font-size: 16px;
   line-height: 1;
+  background-color: rgb(188, 147, 204);
 }
 
 textarea {
@@ -23,7 +27,7 @@ textarea {
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
-  font-family: "Sofia", sans-serif;
+  font-family: "Audiowide", sans-serif;
 }
 
 .currentDay{
@@ -32,13 +36,21 @@ textarea {
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
-  font-family: "Sofia", sans-serif;
   font-size: larger;
 }
-
+/* button */
 .clear{
-  
-}
+  background-color: #5e38c9; /* Green
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 8px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+} 
 
 .description {
   white-space: pre-wrap;
