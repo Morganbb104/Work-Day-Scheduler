@@ -10,8 +10,8 @@ HTML and CSS powered by jQuery. and I use the [Moment.js](https://momentjs.com/)
 
 ## Screenshot
 
-![Portfolio; home, middle](https://github.com/Morganbb104/Portfolio/blob/main/assets/images/preview_image2.jpg)
-![Portfolio; home, buttom](https://github.com/Morganbb104/Portfolio/blob/main/assets/images/preview_image3.jpg)
+![Day scheduler; home, top](https://github.com/Morganbb104/Portfolio/blob/main/Assets/images/top Day scheduler.jpg))
+![Day scheduler; home, buttom](https://github.com/Morganbb104/Portfolio/blob/main/Assets/images/buttom Day scheduler.jpg)
 
 
 
